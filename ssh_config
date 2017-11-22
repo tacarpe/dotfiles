@@ -1,0 +1,11 @@
+# UMich GitLab
+Host gitlab
+    Hostname gitlab.com
+    User git
+    IdentityFile ~/.ssh/tacarpe
+
+# CAEN
+Host mmd
+    HostName login.engin.umich.edu
+    User tacarpe
+    Compression yes
